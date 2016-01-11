@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E0D1FB1B9F058D004A4E70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0D1FA1B9F058D004A4E70 /* main.m */; };
+		10E0D1FE1B9F058D004A4E70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0D1FD1B9F058D004A4E70 /* AppDelegate.m */; };
+		10E0D2011B9F058D004A4E70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0D2001B9F058D004A4E70 /* ViewController.m */; };
+		10E0D2041B9F058D004A4E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E0D2021B9F058D004A4E70 /* Main.storyboard */; };
+		10E0D2061B9F058D004A4E70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E0D2051B9F058D004A4E70 /* Images.xcassets */; };
+		10E0D2091B9F058D004A4E70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E0D2071B9F058D004A4E70 /* LaunchScreen.xib */; };
+		10E0D2151B9F058D004A4E70 /* NavigationBarDIYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0D2141B9F058D004A4E70 /* NavigationBarDIYTests.m */; };
+		10E0D2201B9F05AA004A4E70 /* FatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0D21F1B9F05AA004A4E70 /* FatherViewController.m */; };
+		10E0D2231B9F075F004A4E70 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0D2221B9F075F004A4E70 /* FirstViewController.m */; };
+		10E0D2261B9F07C6004A4E70 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0D2251B9F07C6004A4E70 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10E0D20F1B9F058D004A4E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10E0D1ED1B9F058D004A4E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10E0D1F41B9F058D004A4E70;
+			remoteInfo = NavigationBarDIY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E0D1F51B9F058D004A4E70 /* NavigationBarDIY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarDIY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E0D1F91B9F058D004A4E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E0D1FA1B9F058D004A4E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10E0D1FC1B9F058D004A4E70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10E0D1FD1B9F058D004A4E70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10E0D1FF1B9F058D004A4E70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10E0D2001B9F058D004A4E70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10E0D2031B9F058D004A4E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10E0D2051B9F058D004A4E70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10E0D2081B9F058D004A4E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		10E0D20E1B9F058D004A4E70 /* NavigationBarDIYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarDIYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E0D2131B9F058D004A4E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E0D2141B9F058D004A4E70 /* NavigationBarDIYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarDIYTests.m; sourceTree = "<group>"; };
+		10E0D21E1B9F05AA004A4E70 /* FatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatherViewController.h; sourceTree = "<group>"; };
+		10E0D21F1B9F05AA004A4E70 /* FatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatherViewController.m; sourceTree = "<group>"; };
+		10E0D2211B9F075F004A4E70 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		10E0D2221B9F075F004A4E70 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		10E0D2241B9F07C6004A4E70 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		10E0D2251B9F07C6004A4E70 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E0D1F21B9F058D004A4E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E0D20B1B9F058D004A4E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E0D1EC1B9F058D004A4E70 = {
+			isa = PBXGroup;
+			children = (
+				10E0D2241B9F07C6004A4E70 /* SecondViewController.h */,
+				10E0D2251B9F07C6004A4E70 /* SecondViewController.m */,
+				10E0D2211B9F075F004A4E70 /* FirstViewController.h */,
+				10E0D2221B9F075F004A4E70 /* FirstViewController.m */,
+				10E0D21E1B9F05AA004A4E70 /* FatherViewController.h */,
+				10E0D21F1B9F05AA004A4E70 /* FatherViewController.m */,
+				10E0D1F71B9F058D004A4E70 /* NavigationBarDIY */,
+				10E0D2111B9F058D004A4E70 /* NavigationBarDIYTests */,
+				10E0D1F61B9F058D004A4E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10E0D1F61B9F058D004A4E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E0D1F51B9F058D004A4E70 /* NavigationBarDIY.app */,
+				10E0D20E1B9F058D004A4E70 /* NavigationBarDIYTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E0D1F71B9F058D004A4E70 /* NavigationBarDIY */ = {
+			isa = PBXGroup;
+			children = (
+				10E0D1FC1B9F058D004A4E70 /* AppDelegate.h */,
+				10E0D1FD1B9F058D004A4E70 /* AppDelegate.m */,
+				10E0D1FF1B9F058D004A4E70 /* ViewController.h */,
+				10E0D2001B9F058D004A4E70 /* ViewController.m */,
+				10E0D2021B9F058D004A4E70 /* Main.storyboard */,
+				10E0D2051B9F058D004A4E70 /* Images.xcassets */,
+				10E0D2071B9F058D004A4E70 /* LaunchScreen.xib */,
+				10E0D1F81B9F058D004A4E70 /* Supporting Files */,
+			);
+			path = NavigationBarDIY;
+			sourceTree = "<group>";
+		};
+		10E0D1F81B9F058D004A4E70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E0D1F91B9F058D004A4E70 /* Info.plist */,
+				10E0D1FA1B9F058D004A4E70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10E0D2111B9F058D004A4E70 /* NavigationBarDIYTests */ = {
+			isa = PBXGroup;
+			children = (
+				10E0D2141B9F058D004A4E70 /* NavigationBarDIYTests.m */,
+				10E0D2121B9F058D004A4E70 /* Supporting Files */,
+			);
+			path = NavigationBarDIYTests;
+			sourceTree = "<group>";
+		};
+		10E0D2121B9F058D004A4E70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E0D2131B9F058D004A4E70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E0D1F41B9F058D004A4E70 /* NavigationBarDIY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E0D2181B9F058D004A4E70 /* Build configuration list for PBXNativeTarget "NavigationBarDIY" */;
+			buildPhases = (
+				10E0D1F11B9F058D004A4E70 /* Sources */,
+				10E0D1F21B9F058D004A4E70 /* Frameworks */,
+				10E0D1F31B9F058D004A4E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationBarDIY;
+			productName = NavigationBarDIY;
+			productReference = 10E0D1F51B9F058D004A4E70 /* NavigationBarDIY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10E0D20D1B9F058D004A4E70 /* NavigationBarDIYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E0D21B1B9F058D004A4E70 /* Build configuration list for PBXNativeTarget "NavigationBarDIYTests" */;
+			buildPhases = (
+				10E0D20A1B9F058D004A4E70 /* Sources */,
+				10E0D20B1B9F058D004A4E70 /* Frameworks */,
+				10E0D20C1B9F058D004A4E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E0D2101B9F058D004A4E70 /* PBXTargetDependency */,
+			);
+			name = NavigationBarDIYTests;
+			productName = NavigationBarDIYTests;
+			productReference = 10E0D20E1B9F058D004A4E70 /* NavigationBarDIYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E0D1ED1B9F058D004A4E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					10E0D1F41B9F058D004A4E70 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					10E0D20D1B9F058D004A4E70 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 10E0D1F41B9F058D004A4E70;
+					};
+				};
+			};
+			buildConfigurationList = 10E0D1F01B9F058D004A4E70 /* Build configuration list for PBXProject "NavigationBarDIY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E0D1EC1B9F058D004A4E70;
+			productRefGroup = 10E0D1F61B9F058D004A4E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E0D1F41B9F058D004A4E70 /* NavigationBarDIY */,
+				10E0D20D1B9F058D004A4E70 /* NavigationBarDIYTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E0D1F31B9F058D004A4E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E0D2041B9F058D004A4E70 /* Main.storyboard in Resources */,
+				10E0D2091B9F058D004A4E70 /* LaunchScreen.xib in Resources */,
+				10E0D2061B9F058D004A4E70 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E0D20C1B9F058D004A4E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E0D1F11B9F058D004A4E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E0D2261B9F07C6004A4E70 /* SecondViewController.m in Sources */,
+				10E0D2011B9F058D004A4E70 /* ViewController.m in Sources */,
+				10E0D1FE1B9F058D004A4E70 /* AppDelegate.m in Sources */,
+				10E0D2231B9F075F004A4E70 /* FirstViewController.m in Sources */,
+				10E0D2201B9F05AA004A4E70 /* FatherViewController.m in Sources */,
+				10E0D1FB1B9F058D004A4E70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E0D20A1B9F058D004A4E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E0D2151B9F058D004A4E70 /* NavigationBarDIYTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10E0D2101B9F058D004A4E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10E0D1F41B9F058D004A4E70 /* NavigationBarDIY */;
+			targetProxy = 10E0D20F1B9F058D004A4E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10E0D2021B9F058D004A4E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E0D2031B9F058D004A4E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10E0D2071B9F058D004A4E70 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E0D2081B9F058D004A4E70 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10E0D2161B9F058D004A4E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10E0D2171B9F058D004A4E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E0D2191B9F058D004A4E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavigationBarDIY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10E0D21A1B9F058D004A4E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavigationBarDIY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10E0D21C1B9F058D004A4E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NavigationBarDIYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationBarDIY.app/NavigationBarDIY";
+			};
+			name = Debug;
+		};
+		10E0D21D1B9F058D004A4E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NavigationBarDIYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationBarDIY.app/NavigationBarDIY";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E0D1F01B9F058D004A4E70 /* Build configuration list for PBXProject "NavigationBarDIY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E0D2161B9F058D004A4E70 /* Debug */,
+				10E0D2171B9F058D004A4E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E0D2181B9F058D004A4E70 /* Build configuration list for PBXNativeTarget "NavigationBarDIY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E0D2191B9F058D004A4E70 /* Debug */,
+				10E0D21A1B9F058D004A4E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10E0D21B1B9F058D004A4E70 /* Build configuration list for PBXNativeTarget "NavigationBarDIYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E0D21C1B9F058D004A4E70 /* Debug */,
+				10E0D21D1B9F058D004A4E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10E0D1ED1B9F058D004A4E70 /* Project object */;
+}
